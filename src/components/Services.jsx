@@ -10,8 +10,8 @@ const services = [
 
 export default function Services() {
   return (
-    <section id="services" className="relative py-20">
-      <div className="mx-auto max-w-6xl px-6">
+    <section id="services" className="relative py-20 snap-section md:min-h-screen md:flex md:items-center">
+      <div className="mx-auto max-w-6xl px-6 w-full">
         <div className="mb-10">
           <h2 className="text-3xl md:text-4xl font-bold text-white">What we do</h2>
           <p className="mt-2 text-slate-300/80">A nimble team that blends design and engineering.</p>

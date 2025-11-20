@@ -9,8 +9,8 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" className="relative py-24">
-      <div className="mx-auto max-w-4xl px-6">
+    <section id="contact" className="relative py-24 snap-section md:min-h-screen md:flex md:items-center">
+      <div className="mx-auto max-w-4xl px-6 w-full">
         <div className="mb-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white">Let\'s build something great</h2>
           <p className="mt-2 text-slate-300/80">Tell us a bit about your project and we\'ll reach out.</p>

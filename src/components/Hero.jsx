@@ -2,7 +2,7 @@ import Spline from '@splinetool/react-spline'
 
 export default function Hero() {
   return (
-    <section id="home" className="relative min-h-[92vh] grid place-items-center overflow-hidden">
+    <section id="home" className="relative min-h-[92vh] grid place-items-center overflow-hidden snap-section md:min-h-screen">
       <div className="absolute inset-0">
         <Spline scene="https://prod.spline.design/N8g2VNcx8Rycz93J/scene.splinecode" style={{ width: '100%', height: '100%' }} />
       </div>

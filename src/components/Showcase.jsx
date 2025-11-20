@@ -20,8 +20,8 @@ const projects = [
 
 export default function Showcase() {
   return (
-    <section id="work" className="relative py-24">
-      <div className="mx-auto max-w-6xl px-6">
+    <section id="work" className="relative py-24 snap-section md:min-h-screen md:flex md:items-center">
+      <div className="mx-auto max-w-6xl px-6 w-full">
         <div className="mb-10 flex items-end justify-between">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-white">Featured Work</h2>
